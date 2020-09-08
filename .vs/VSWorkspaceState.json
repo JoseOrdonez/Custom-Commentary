@@ -2,8 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\backend",
-    "\\client"
+    "\\client",
+    "\\client\\src"
   ],
-  "SelectedNode": "\\backend",
   "PreviewInSolutionExplorer": false
 }
