@@ -97,15 +97,20 @@ class App extends Component {
         });
     };
 
-    // here is our UI
-    // it is easy to understand their functions when you
-    // see them render into our screen
-    render() {
-        const { data } = this.state;
-        return ( 
-            <h1> Template </h1>
-        );
-    }
+    // // here is our UI
+    // // it is easy to understand their functions when you
+    // // see them render into our screen
+    // render() {
+    //     return (
+    //         <div>
+    //             <h1>Hello World!</h1>
+    //             <iframe width="420" height="315"
+    //                 src="https://www.youtube.com/embed/tgbNymZ7vqY">
+    //             </iframe>
+    //         </div>
+
+    //       );
+    // }
 }
 
 export default App;

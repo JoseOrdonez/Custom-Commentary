@@ -1,0 +1,74 @@
+body {
+  background-color: #282c34;
+  color: white;
+  padding: 0px;
+  font-family: Arial;
+  text-align: center;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 3px solid #4CAF50;
+    position: absolute;
+    left: 10px;
+    width: 300px;
+    padding: 10px;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 3px solid #008CBA;
+    position: absolute;
+    right: 10px;
+    width: 300px;
+    padding: 10px;
+  }
+  
+  .button2:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+
+.smallbutton {
+    border: darksalmon;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 8px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.smallbutton:hover {
+    background-color: darksalmon;
+    color: black;
+  }
+
+.optionclump {
+    width: 100px; 
+    float: left; 
+    height: 100px;
+    margin: 10px
+}
